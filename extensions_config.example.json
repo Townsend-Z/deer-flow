@@ -36,6 +36,12 @@
       ],
       "env": {},
       "description": "PostgreSQL database access"
+    },
+    "te-mcp-server-tehub": {
+      "enabled": false,
+      "type": "sse",
+      "url": "http://localhost:9001/mcp/sse/base/tehub",
+      "description": "Tehub data ingestion pipeline MCP server — manages Token, Stream, and Task resources (26 tools). Used by the tehub-pipeline subagent."
     }
   },
   "skills": {}
